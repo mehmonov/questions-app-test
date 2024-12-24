@@ -76,15 +76,7 @@ export default {
   },
   methods: {
     handleSubmit() {
-      // Implement authentication logic here
-      if (this.isLogin) {
-        // Login logic
-        console.log('Logging in:', this.email)
-      } else {
-        // Registration logic
-        console.log('Registering:', this.email)
-      }
-      // On success, redirect to course selection
+ 
       this.$router.push('/courses')
     }
   }
