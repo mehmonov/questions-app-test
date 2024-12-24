@@ -3,7 +3,7 @@
       <div class="bg-white/90 backdrop-blur-lg p-8 rounded-3xl shadow-2xl w-full max-w-md transition-all duration-300 hover:shadow-blue-400/20">
         <div class="flex justify-center mb-8">
           <h1 class="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Learning Platform
+            Questions
           </h1>
         </div>
   
@@ -36,9 +36,9 @@
           <div class="space-y-4">
             <div class="relative">
               <input
-                type="email"
+                type="text"
                 v-model="email"
-                placeholder="Email"
+                placeholder="test"
                 class="w-full px-6 py-4 bg-gray-50 rounded-2xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-300 outline-none"
                 required
               />
@@ -47,7 +47,7 @@
               <input
                 type="password"
                 v-model="password"
-                placeholder="Password"
+                placeholder="test"
                 class="w-full px-6 py-4 bg-gray-50 rounded-2xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-300 outline-none"
                 required
               />
