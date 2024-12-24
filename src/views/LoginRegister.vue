@@ -76,7 +76,6 @@ export default {
   },
   methods: {
     handleSubmit() {
- 
       this.$router.push('/courses')
     }
   }
